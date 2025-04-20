@@ -134,7 +134,23 @@
 <p>作業二 (20%): 在各種不同環境下的操作系統中配置 <a href="https://mde.tw/reeborg/world.html">Reeborg's world</a> (<a href="https://github.com/mdecycu/reeborg">原始碼</a>)</p>
 <p></p>
 <h1>Reeborg</h1>
-<h1>Midterm</h1>
+<p></p>
+<p><a href="https://mdewcm2025.github.io/hw-scrum-1/reeborg">https://mdewcm2025.github.io/hw-scrum-1/reeborg</a></p>
+<p><a href="https://github.com/mdewcm2025/hw-scrum-1/blob/main/reeborg/rb/reeborg.js">https://github.com/mdewcm2025/hw-scrum-1/blob/main/reeborg/rb/reeborg.js</a></p>
+<p></p>
+<p></p>
+<pre class="brush:py;auto-links:false;toolbar:false" contenteditable="false">function set_editor() {
+    "use strict";
+    if (localStorage.getItem("editor")){
+        editor.setValue(localStorage.getItem("editor"));
+    } else {
+        editor.setValue(RUR.translate("move") + "()");
+    }
+}</pre>
+<p>決定 editor 中的內容</p>
+<p>在 index.html 中則 editor 內容由 id="code" 變數決定</p>
+<p></p>
+<h3>walk</h3><h1>Midterm</h1>
 <p>2. 期中協同專案執行、簡報與報告 (三人一組) (30%)</p>
 <p style="padding-left: 30px;">專案題目: 利用 Copilot 解析 <a href="https://mde.tw/reeborg/world.html">Reeborg's world</a> (<a href="https://github.com/mdecycu/reeborg">原始碼</a>)</p>
 <h1>Final</h1>
